@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Sistema Bancário!</title>
+    </head>
+    <body>
+        <script>
+        
+            let saldo = prompt("Entre com seu saldo atual:")
+            let valor = prompt("Entre com o valor de sua compra: \n *Se o numero possuir apenas uma casa decimal, acrescente 0 na frente \n *Exemplo: 4 --> 04")
+        
+            if (valor <= saldo)
+            {
+                total = saldo - valor;
+                alert(`Compra feita com sucesso! E voce tem o saldo de R$ ${total},00`);
+            }
+            else
+            {
+                alert(`Saldo insuficiente!`);
+            }
+        
+        </script>
+    </body>
+</html>
